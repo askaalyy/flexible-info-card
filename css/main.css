@@ -11,18 +11,11 @@ html {
 body {
   color: #000;
   margin: 0;
-  line-height: 1.5;
-  width: 5rem;
 }
 
 section {
   background-color: #ccc;
-  display: flex;
-  justify-content: center;
-  align-items: stretch;
-  flex-wrap: wrap;
-  flex-direction: column;
-  padding: .2rem;
+  padding: 2rem;
 }
 
 a :last-child {
@@ -39,4 +32,12 @@ ul {
   margin: 0;
   padding: 0;
   list-style-type: none;
+}
+
+li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: column;
 }
