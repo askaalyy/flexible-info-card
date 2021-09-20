@@ -40,9 +40,16 @@ img {
   margin-right: 2.0rem;
 }
 
+hgroup {
+  width: 16em;
+}
 
 a  {
   background-color: #444;
   color: #fff;
   padding: : .5rem 1rem;
+}
+
+h3, h4{
+
 }
