@@ -13,6 +13,8 @@ body {
   color: #000;
   margin: 1.5rem;
   line-height: 1.5;
+  width: 5rem;
+  padding: .5rem 1rem .6rem;
 }
 
 section {
@@ -24,7 +26,8 @@ section {
 }
 
 section ul {
-    width: 24rem;
+
+
 }
 
 a :last-child {
