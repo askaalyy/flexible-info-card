@@ -40,8 +40,17 @@ img {
   margin-right: 1.5rem;
 }
 
+h3, h4 {
+  margin: 0;
+}
+
 hgroup {
   width: 16em;
+}
+
+p {
+  max-width: 24em;
+  margin: 0 auto: 0 0;
 }
 
 a  {
@@ -49,13 +58,4 @@ a  {
   color: #fff;
   padding: : .5rem 1rem .6rem;
   text-decoration: none;
-}
-
-h3, h4{
-  margin: 0;
-}
-
-p {
-  max-width: 24em;
-  margin: 0 auto: 0 0;
 }
