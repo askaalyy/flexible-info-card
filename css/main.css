@@ -1,6 +1,6 @@
 html {
   box-sizing: border-box;
-  background-color: lightgrey;
+  background-color: #ccc;
   font-family: sans-serif;
   line-height: 1.5;
 }
@@ -19,5 +19,11 @@ section {
   justify-content: center;
   flex-wrap: wrap;
   align-items: center;
-  width: 24rem;
+  flex-direction: column;
+  width: 24rem 16rem 5rem;
+}
+
+a :last-child {
+  color: #444;
+
 }
