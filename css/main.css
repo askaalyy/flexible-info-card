@@ -1,6 +1,5 @@
 html {
   box-sizing: border-box;
-  background-color: #ccc;
   font-family: "Open Sans", sans-serif;
   line-height: 1.5;
 }
@@ -14,18 +13,24 @@ body {
   margin: 0;
   line-height: 1.5;
   width: 5rem;
-  padding: .5rem 1rem .6rem;
 }
 
 section {
+  background-color: #ccc;
   display: flex;
   justify-content: center;
   align-items: stretch;
   flex-wrap: wrap;
   flex-direction: column;
+  padding: .2rem;
 }
 
 a :last-child {
   color: #444;
   color: #000;
+}
+
+h2 {
+  text-align: center;
+  margin: 0 0 1.5rem;
 }
