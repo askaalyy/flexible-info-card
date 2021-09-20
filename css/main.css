@@ -31,7 +31,12 @@ ul {
 li {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: stretch;
   flex-wrap: wrap;
   flex-direction: column;
+}
+
+a li {
+  color: #444;
+  padding: .5rem 1rem .6rem;
 }
