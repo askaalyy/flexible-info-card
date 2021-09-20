@@ -1,7 +1,7 @@
 html {
   box-sizing: border-box;
   background-color: #ccc;
-  font-family: sans-serif;
+  font-family: opensans;
   line-height: 1.5;
 }
 
@@ -11,16 +11,20 @@ html {
 
 body {
   color: #000;
-  margin: 1.5rem;
+  margin: 1.5em;
+  line-height: 1.5;
 }
 
 section {
   display: flex;
   justify-content: center;
+  align-items: stretch;
   flex-wrap: wrap;
-  align-items: center;
-  flex-direction: column;
-  width: 24rem 16rem 5rem;
+
+}
+
+section ul {
+    width: 24rem;
 }
 
 a :last-child {
