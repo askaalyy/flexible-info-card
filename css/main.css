@@ -35,6 +35,12 @@ li {
   margin: 0 0 1.5rem;
 }
 
+img {
+  width: 5em;
+  margin-right: 2.0rem;
+}
+
+
 a  {
   background-color: #444;
   color: #fff;
